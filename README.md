@@ -1,6 +1,6 @@
 <h1>E-commerce webshop built usung Laravel</h1>
 
-<h3>To run use this tutorial: https://devmarketer.io/learn/setup-laravel-project-cloned-github-com/</h3>
+<h3>To run use this tutorial on localhost: < /br> https://devmarketer.io/learn/setup-laravel-project-cloned-github-com/</h3>
 
 DB credentials are in .env file.
 
