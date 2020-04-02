@@ -77,12 +77,19 @@
                                                             Cart</a>
                                                     </div>
                                                     <!-- Quick View -->
-                                                    <div class="product_quick_view">
-                                                        <a href="" class="open-modal" data-id="<?php echo e($product->id); ?>"
-data-toggle="modal" data-target="#modal"><i class="icofont-eye-alt"></i> Quick View</a>
 
 
+
+
+
+
+
+                                                    <div class=" show-modal product_quick_view">
+                                                        <a href="#" class="show-modal" data-toggle="modal"  data-name="<?php echo e($product->name); ?>" data-description="<?php echo e($product->description); ?>"
+                                                           data-price="<?php echo e($product->price); ?>" data-price2="<?php echo e($product->sale_price); ?>" data-image="<?php echo e(asset('storage/'.$product->images->first()->full)); ?>"><i class="icofont-eye-alt"></i> Quick View</a>
                                                     </div>
+
+
                                                     <p class="brand_name">Top</p>
                                                     <a href="<?php echo e(route('product.show', $product->slug)); ?>"><?php echo e($product->name); ?></a>
                                                     <?php if($product->sale_price != 0): ?>
@@ -110,118 +117,7 @@ data-toggle="modal" data-target="#modal"><i class="icofont-eye-alt"></i> Quick V
                             </div>
 
                             <!-- Quick View Modal Area -->
-                            <div class="modal fade" id="modal" tabindex="-1" role="dialog"
-                                 aria-labelledby="quickview" aria-hidden="true">
-                                <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-                                    <div class="modal-content">
-                                        <button type="button" class="close btn" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                        <div class="modal-body">
-                                            <h1></h1>
-                                            <div class="quickview_body">
-                                                <div class="container">
-                                                <h2 class="product-name"></h2>
-
-                                                    <div class="row">
-                                                        <div class="col-12 col-lg-5">
-
-                                                            <div class="quickview_pro_img">
-                                                                <img class="first_img"
-                                                                     src=""
-                                                                     alt="">
-                                                                <img class="hover_img"
-                                                                     src=""
-                                                                     alt="">
-                                                                <!-- Product Badge -->
-                                                                <div class="product_badge">
-                                                                    <span class="badge-new">New</span>
-                                                                </div>
-                                                            </div>
-
-                                                        </div>
-                                                        <div class="col-12 col-lg-7">
-                                                            <div class="quickview_pro_des">
-                                                                <h4 class="title" id="title">tttt</h4>
-                                                                <div class="top_seller_product_rating mb-15">
-                                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                                </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing
-                                                                    elit. Mollitia expedita quibusdam aspernatur,
-                                                                    sapiente consectetur accusantium perspiciatis
-                                                                    praesentium eligendi, in fugiat?</p>
-                                                                <a href="">View
-                                                                    Full Product Details</a>
-                                                            </div>
-                                                            <!-- Add to Cart Form -->
-                                                            <form action="" class="cart" method="" role="form"
-                                                                  id="addToCart">
-
-                                                                
-                                                                
-                                                                
-                                                                <a href=""
-                                                                   type="" value="5" class="cart-submit">Product
-                                                                    Details</a>
-                                                                <h2 class="data-title"></h2>
-                                                            
-                                                            <!-- Wishlist -->
-                                                                <div class="modal_pro_wishlist">
-                                                                    <a href="wishlist.html"><i
-                                                                            class="icofont-heart"></i></a>
-                                                                </div>
-                                                                <!-- Compare -->
-                                                                <div class="modal_pro_compare">
-                                                                    <a href="compare.html"><i
-                                                                            class="icofont-exchange"></i></a>
-                                                                </div>
-                                                            </form>
-                                                            <!-- Share -->
-                                                            <div class="share_wf mt-30">
-                                                                <p>Share with friends</p>
-                                                                <div class="_icon">
-                                                                    <a href="#"><i class="fa fa-facebook"
-                                                                                   aria-hidden="true"></i></a>
-                                                                    <a href="#"><i class="fa fa-twitter"
-                                                                                   aria-hidden="true"></i></a>
-                                                                    <a href="#"><i class="fa fa-pinterest"
-                                                                                   aria-hidden="true"></i></a>
-                                                                    <a href="#"><i class="fa fa-linkedin"
-                                                                                   aria-hidden="true"></i></a>
-                                                                    <a href="#"><i class="fa fa-instagram"
-                                                                                   aria-hidden="true"></i></a>
-                                                                    <a href="#"><i class="fa fa-envelope-o"
-                                                                                   aria-hidden="true"></i></a>
-                                                                </div>
-                                                            </div>
-
-                                                        </div>
-
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+<?php echo $__env->make('site3.partials.modal', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>;
                             <!-- Shop Pagination Area -->
                             <div class="shop_pagination_area mt-30">
                                 <nav aria-label="Page navigation">

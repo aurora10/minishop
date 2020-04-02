@@ -2,9 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd20e73b-ed80-4db9-bd73-5e82a490b77d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AAAA/sss.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/cache/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/app/public/products/0LQQdLJIUu3LTbLQh60inoSLn.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/app/public/products/0PLGdJ5u12wSfvYKRztZ3k2Wl.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/app/public/products/8WhrLRyM1cy3ONOVwlt11ZBiy.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/app/public/products/GaisU7yWMzCT1IQKeafQVKCEP.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/app/public/products/NjxvI3aZcfTuU2cshgTY5xt5H.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/app/public/products/leVW7LWbIiiJKpyHtOcqyEcPK.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/181aea9065eb5821474dd26278d210edaf8a3062.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/a20dfc01655ee45824752340c03a584dac0545cc.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZZZZZ/aaa.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AAAA/sss.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site3/partials/modal.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site3/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site3/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site3/pages/category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site3/pages/category.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site3/partials/landing.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site3/partials/landing.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/0cefa0a4710593df23eb8755c3fc109388e2c099.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/0cefa0a4710593df23eb8755c3fc109388e2c099.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/168dbeb0a4bed0b74f8cca7bae4aa95bf711691e.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/168dbeb0a4bed0b74f8cca7bae4aa95bf711691e.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/1ace51baa48c6ce4bae097ae0e3b1486b40ed9ff.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/2324d16ffcd8bc90157dc1975189d8f61e0c2395.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/28bd3b85474fb9f0ede047b64f3178c762aa2b88.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/33636ea98b33ef99aabb3e01a809cc46087210bc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/4969dfdfbb80b3197e9f1b013de74b0698187043.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/6c0380d29dab4fdc6c47e0ecd2ed0786a4aa2738.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/6e770a7af93e5c92a7502b8d0a0edf794d13bd0a.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/a12a62302100343572c75580c9c145573299920b.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/c989fb39003bd7eb58b825abfa9bcaa6279067ec.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/d31e0ec5813ec59714a779de7acc339749aa78fb.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/d3502a738a66077eae81759f61e81c9e07fc1dde.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/d3502a738a66077eae81759f61e81c9e07fc1dde.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/e557ea0c2251225334dcae7d624e34824d573590.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/f77615e480194735fda5eb6c795d82c537a87948.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/fde77d95a76fb90277929cb592388b0a7404f17b.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/logs/laravel.log" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/laravel.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -161,6 +189,9 @@
       <workItem from="1584613843517" duration="2609000" />
       <workItem from="1584811876035" duration="831000" />
       <workItem from="1584969317482" duration="3739000" />
+      <workItem from="1585731743529" duration="973000" />
+      <workItem from="1585734243201" duration="35000" />
+      <workItem from="1585734531693" duration="26847000" />
     </task>
     <servers />
   </component>
@@ -182,5 +213,21 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/site3/partials/landing.blade.php</url>
+          <line>424</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/site3/app.blade.php</url>
+          <line>33</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

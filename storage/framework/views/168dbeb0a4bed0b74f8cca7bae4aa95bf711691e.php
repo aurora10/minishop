@@ -30,14 +30,23 @@
 
 <script type="text/javascript">
 
-    $('#modal').on('show.bs.modal', function () {
-        var myVal = $('.open-modal').data('id');
-        var name = $('.open-modal').data('name');
-        //alert(name);
-        $(this).find('.product-name').text(myVal);
-        //$(this).find('.product-name').text(name);
 
 
+    $(document).on('click', '.show-modal', function() {
+        $('#show').modal('show');
+        $('#i').text($(this).data('id'));
+        $('#ti').text($(this).data('name'));
+        $('#by').text($(this).data('description'));
+        $('#pr').text($(this).data('price'));
+        $('#pr2').text($(this).data('price2'));
+        $('#dr').attr("href",$(this).data('route'));
+        // $('#im').text($(this).data('image'));
+
+        $('#first_img').attr("src",$(this).data('image'));
+        // $('.hover_img').attr("src",$(this).data('image2'));
+
+        // $('#image').html($(this).data('image') );
+        $('.modal-title').text('Show Post');
     });
 
 </script>
