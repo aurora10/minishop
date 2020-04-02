@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd20e73b-ed80-4db9-bd73-5e82a490b77d" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/bootstrap/cache/config.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/storage/app/public/products/0LQQdLJIUu3LTbLQh60inoSLn.jpeg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/storage/app/public/products/0PLGdJ5u12wSfvYKRztZ3k2Wl.jpeg" afterDir="false" />
@@ -33,6 +34,11 @@
       <change beforePath="$PROJECT_DIR$/storage/framework/views/f77615e480194735fda5eb6c795d82c537a87948.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/views/fde77d95a76fb90277929cb592388b0a7404f17b.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/logs/laravel.log" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/laravel.log" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site3/partials/landing.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site3/partials/landing.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/0cefa0a4710593df23eb8755c3fc109388e2c099.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/0cefa0a4710593df23eb8755c3fc109388e2c099.php" afterDir="false" />
+>>>>>>> afcc967b485a2b72b971d06ec940ee3715330298
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -152,6 +158,11 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">

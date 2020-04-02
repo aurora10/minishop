@@ -25,14 +25,7 @@ $random_products3 = ProductController::random_products();
                                 Now</a>
                         </div>
                     </div>
-                    <div class="col-5 col-md-4">
-                        <div class="welcome_slide_image">
-                            <img src="img/bg-img/slide-1.png" alt="" data-animation="bounceInUp" data-delay="500ms">
-                            <div class="discount_badge" data-animation="bounceInDown" data-delay="1.2s">
-                                <span>30%<br>OFF</span>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -72,36 +65,7 @@ $random_products3 = ProductController::random_products();
 </section>
 <!-- Welcome Slides Area -->
 <!-- Top Catagory Area -->
-<div class="top_catagory_area mt-50 clearfix">
-    <div class="container">
-        <div class="row">
-            <!-- Single Catagory -->
-            <div class="col-12 col-md-4">
-                <div class="single_catagory_area mt-50">
-                    <a href="#">
-                        <img src="img/bg-img/c1.jpg" alt="">
-                    </a>
-                </div>
-            </div>
-            <!-- Single Catagory -->
-            <div class="col-12 col-md-4">
-                <div class="single_catagory_area mt-50">
-                    <a href="#">
-                        <img src="img/bg-img/c2.jpg" alt="">
-                    </a>
-                </div>
-            </div>
-            <!-- Single Catagory -->
-            <div class="col-12 col-md-4">
-                <div class="single_catagory_area mt-50">
-                    <a href="#">
-                        <img src="img/bg-img/c3.jpg" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
 <!-- Top Catagory Area -->
 <!-- Quick View Modal Area -->
 <!-- Quick View Modal Area -->

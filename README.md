@@ -13,3 +13,6 @@ http://127.0.0.1:8000/admin
 user: admin@admin.com
 </br>
 password: password
+
+
+Live Demo: https:www.minishop123.tk
