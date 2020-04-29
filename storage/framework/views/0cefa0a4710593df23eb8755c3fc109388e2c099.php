@@ -165,13 +165,13 @@ $random_products3 = ProductController::random_products();
                     <!-- Tabs -->
                     <ul class="nav nav-tabs" role="tablist" id="product-tab">
                         <li class="nav-item">
-                            <a href="#top-sellers" class="nav-link" data-toggle="tab" role="tab">Top Sellers</a>
+                            <a href="#top-sellers" class="nav-link active" data-toggle="tab" role="tab">Top Sellers</a>
                         </li>
                         <li class="nav-item">
                             <a href="#best-rated" class="nav-link" data-toggle="tab" role="tab">Best Rated</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#on-sale" class="nav-link active" data-toggle="tab" role="tab">On Sale</a>
+                            <a href="#on-sale" class="nav-link " data-toggle="tab" role="tab">On Sale</a>
                         </li>
                     </ul>
                     <div class="tab-content">

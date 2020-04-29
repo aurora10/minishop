@@ -165,13 +165,13 @@ $random_products3 = ProductController::random_products();
                     <!-- Tabs -->
                     <ul class="nav nav-tabs" role="tablist" id="product-tab">
                         <li class="nav-item">
-                            <a href="#top-sellers" class="nav-link" data-toggle="tab" role="tab">Top Sellers</a>
+                            <a href="#top-sellers" class="nav-link active" data-toggle="tab" role="tab">Top Sellers</a>
                         </li>
                         <li class="nav-item">
                             <a href="#best-rated" class="nav-link" data-toggle="tab" role="tab">Best Rated</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#on-sale" class="nav-link active" data-toggle="tab" role="tab">On Sale</a>
+                            <a href="#on-sale" class="nav-link " data-toggle="tab" role="tab">On Sale</a>
                         </li>
                     </ul>
                     <div class="tab-content">
@@ -397,22 +397,22 @@ $random_products3 = ProductController::random_products();
             <div class="col-12">
                 <div class="popular_brands_slide owl-carousel">
                     <div class="single_brands">
-                        <img src="img/partner-img/1.jpg" alt="">
+                        <img src="/img/partner-img/1.jpg" alt="">
                     </div>
                     <div class="single_brands">
-                        <img src="img/partner-img/2.jpg" alt="">
+                        <img src="/img/partner-img/2.jpg" alt="">
                     </div>
                     <div class="single_brands">
-                        <img src="img/partner-img/3.jpg" alt="">
+                        <img src="/img/partner-img/3.jpg" alt="">
                     </div>
                     <div class="single_brands">
-                        <img src="img/partner-img/4.jpg" alt="">
+                        <img src="/img/partner-img/4.jpg" alt="">
                     </div>
                     <div class="single_brands">
-                        <img src="img/partner-img/5.jpg" alt="">
+                        <img src="/img/partner-img/5.jpg" alt="">
                     </div>
                     <div class="single_brands">
-                        <img src="img/partner-img/6.jpg" alt="">
+                        <img src="/img/partner-img/6.jpg" alt="">
                     </div>
                 </div>
             </div>

@@ -96,7 +96,7 @@
                                                     @if ($product->sale_price != 0)
                                                         <div class="price-wrap h5">
                                                             <span
-                                                                class="product-price"> {{ config('settings.currency_symbol').$product->sale_price }} </span>
+                                                                class="product-price" style="color: red"> {{ config('settings.currency_symbol').$product->sale_price }} </span>
                                                             <del
                                                                 class="price-old"> {{ config('settings.currency_symbol').$product->price }}</del>
                                                         </div>

@@ -4,13 +4,16 @@
     $info = Session::get('info');
     $warnings = Session::get('warning');
 ?>
-<?php if($errors): ?> <?php $__currentLoopData = $errors; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $key => $value): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+<?php if($errors): ?>
+    <?php $__currentLoopData = $errors; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $key => $value): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+
     <div class="alert alert-danger alert-dismissible" role="alert">
         <button class="close" type="button" data-dismiss="alert">×</button>
         <strong>Error!</strong> <?php echo e($value); ?>
 
     </div>
-<?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?> <?php endif; ?>
+    <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+<?php endif; ?>
 
 <?php if($messages): ?> <?php $__currentLoopData = $messages; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $key => $value): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
     <div class="alert alert-success alert-dismissible" role="alert">
